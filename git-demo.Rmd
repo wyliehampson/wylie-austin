@@ -13,7 +13,8 @@ library(palmerpenguins)
 
 ```{r}
 ggplot(penguins, aes(x = species, y = body_mass_g)) +
-  geom_violin(aes(fill = species))
+    geom_violin(aes(fill = species)) +
+    dognoodles::cooltheme()
 ```
 
 
