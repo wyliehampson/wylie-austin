@@ -1,6 +1,6 @@
 ---
 title: "Git Test"
-author: "Wylie Hampson"
+author: "Wylie Hampson & Austin Weisgrau"
 date: "8/20/2021"
 output: html_document
 ---
