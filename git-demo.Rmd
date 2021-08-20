@@ -15,7 +15,7 @@ library(ggbeeswarm)
 ```{r}
 ggplot(penguins, aes(x = species, y = body_mass_g)) +
     geom_violin(fill = NA) +
-    geom_beeswarm() +
+    geom_beeswarm(aes(color = flipper_length_mm)) +
     dognoodles::cooltheme()
 ```
 
